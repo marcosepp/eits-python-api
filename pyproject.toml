@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "eits-python-api"
+version = "0.1.0"
+description = "Python library for using E-ITS portal API."
+authors = ["Marco Sepp <marco@frontmeedia.ee>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+aiohttp = "^3.9.5"
+lxml = "^5.2.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+regex = "^2024.7.24"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

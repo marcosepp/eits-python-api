@@ -1,0 +1,15 @@
+# Directories to ignore:
+*venv*
+*cache*
+*dist*
+*build*
+*vscode 
+
+# Files to ignore:
+*.lock
+*.json
+*.log
+
+# Files to keep:
+!modules_and_measures.json
+!risks.json
